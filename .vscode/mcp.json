@@ -1,0 +1,15 @@
+{
+    "servers": {
+        "mcpserver-py-devto": {
+            "type": "stdio",
+            "command": "python",
+            "args": [
+                // "{{Path to your server.py}}",
+                "",
+            ],
+            "env": {
+              "DEV_TO_API_KEY": "" // Get it from https://dev.to/settings/extensions.
+            }
+        }
+    }
+}
