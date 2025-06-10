@@ -1,0 +1,23 @@
+[project]
+name = "mcp-py-devto"
+version = "0.1.0"
+description = "MCP server written in python for dev.to"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "extinctsion"}
+]
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+    "openai-agents==0.0.13",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-mock>=3.12.0"
+]
